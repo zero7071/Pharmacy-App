@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pharmacy Inventory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div class="container">
+    <h1>🏥 Pharmacy Stock</h1>
+    <div class="input-group">
+      <input type="text" id="drugName" placeholder="Drug name (e.g., Paracetamol)">
+      <input type="number" id="drugStock" placeholder="Stock count">
+      <button onclick="addDrug()">Add Drug</button>
+    </div>
+    <ul id="drugList"></ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

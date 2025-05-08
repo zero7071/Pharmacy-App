@@ -1,0 +1,8 @@
+{
+  "name": "Pharmacy Inventory",
+  "short_name": "Pharma",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#4CAF50",
+  "theme_color": "#4CAF50"
+}
